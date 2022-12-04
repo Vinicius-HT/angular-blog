@@ -1,21 +1,18 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img
-      src="https://legadodamarvel.com.br/wp-content/uploads/2022/12/Vaza-o-fim-dramatico-do-Kang-contra-os-herois-em-Vingadores-5-legadodamarvel.webp"
-      alt="default"
-      height="200px"
-    />
+    <img src="{{ photoCover }}" alt="default" height="200px" />
   </div>
 
   <div class="big-card__title">
-    <h1><a href="">Saiu a nova versão do Angular</a></h1>
+    <h1>
+      <a href="">{{ cardTitle }}</a>
+    </h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="">
-        Foi lançada ontem a nova versão do Angular que trás diversas novidades
-        para acelerar o desenvolvimento web
+        {{ cardDescription }}
       </a>
     </p>
   </div>
